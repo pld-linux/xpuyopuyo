@@ -27,10 +27,10 @@ blobs loses.
 %description -l pl
 Xpuyopuyo to tetrisopodobna gra puzlowa, w której starasz siê ustawiæ
 cztery klocki tego samego kolory. Ka¿de dopasowanie daje ci punkty
-oraz zrzuca szare ska³y na twojego przeciwnika, który jest irytuj±cy
-i ciê¿ko siê go pozbyæ. Wielokrotne dopasowania s± warte wiêcej
-punktów i skutkuj± w wiêkszej liczbie ska³ zrzucanych na przeciwnika
-(na ich trwogê).
+oraz zrzuca szare ska³y na twojego przeciwnika, który jest irytuj±cy i
+ciê¿ko siê go pozbyæ. Wielokrotne dopasowania s± warte wiêcej punktów
+i skutkuj± w wiêkszej liczbie ska³ zrzucanych na przeciwnika (na ich
+trwogê).
 
 %prep
 %setup -q
