@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=XPuyoPuyo
+Comment=A tetris-like puzzle game
+Comment[pl]=Gra tetrisopodobona
+TryExec=xpuyopuyo
+Exec=xpuyopuyo
+Icon=xpuyopuyo.xpm
+Terminal=false
+Type=Application
+Categories=Application;Game;ArcadeGame;
+Encoding=UTF-8
