@@ -37,7 +37,7 @@ trwogê).
 
 %build
 %{__libtoolize}
-aclocal
+%{__aclocal}
 %{__automake}
 %{__autoconf}
 %configure
