@@ -1,0 +1,12 @@
+diff -Nur old/Makefile.am new/Makefile.am
+--- old/Makefile.am	2003-05-26 16:41:57.000000000 +0000
++++ new/Makefile.am	2004-04-20 15:25:14.000000000 +0000
+@@ -33,7 +33,7 @@
+ INCLUDES=-Ipgame -Ipai -Ipnet
+ 
+ 
+-XPP_LIBS		=  $(NET_LIBS) pgame/libxpp_game.a pai/libxpp_ai.a
++XPP_LIBS		=  $(NET_LIBS) pgame/pgame.o pai/orig/pai.o
+ XPP_NET_LIBS		=  pnet/libxpp_net.a	# This must be after interface
+ XPP_SOUND_LIBS		=  $(LIBMIKMOD_LIBS) psound/libxpp_sound.a
+ 
