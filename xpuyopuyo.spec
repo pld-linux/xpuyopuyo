@@ -14,7 +14,8 @@ BuildRequires:	gtk+-devel
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define         _prefix         /usr/X11R6
+%define		_prefix		/usr/X11R6
+%define		_mandir		%{_prefix}/man
 
 %description
 Xpuyopuyo is a Tetris-like puzzle game where you strive to match up
