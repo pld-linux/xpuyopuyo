@@ -7,5 +7,6 @@ Exec=xpuyopuyo
 Icon=xpuyopuyo.xpm
 Terminal=false
 Type=Application
-Categories=Application;Game;ArcadeGame;
+Categories=GTK;Game;BlocksGame;
 Encoding=UTF-8
+# vi: encoding=utf-8
