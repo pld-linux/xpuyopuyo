@@ -1,5 +1,5 @@
-Summary:	A tetris-like puzzle game for X11.
-Summary(pl):	Tetriso podobona gra dla X11
+Summary:	A tetris-like puzzle game for X11
+Summary(pl):	Tetrisopodobona gra dla X11
 Name:		xpuyopuyo
 Version:	0.9.5
 Release:	2
@@ -27,7 +27,12 @@ their dismay). First person to fill up their screen with puyopuyo
 blobs loses.
 
 %description -l pl
-Xpuyopuyo to gra logiczna wzorowana na tetrisie.
+Xpuyopuyo to tetrisopodobna gra puzlowa, w której starasz siê ustawiæ
+cztery klocki tego samego kolory. Ka¿de dopasowanie daje ci punkty
+oraz zrzuca szare ska³y na twojego przeciwnika, który jest irytuj±cy
+i ciê¿ko siê go pozbyæ. Wielokrotne dopasowania s± warte wiêcej
+punktów i skutkuj± w wiêkszej liczbie ska³ zrzucanych na przeciwnika
+(na ich trwogê).
 
 %prep
 %setup -q
