@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://chaos2.org/xpuyopuyo/%{name}-%{version}.tar.gz
+# Source0-md5:	dc0014a370740f67924edcc441e79547
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+-devel
