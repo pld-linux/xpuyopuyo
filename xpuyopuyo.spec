@@ -1,16 +1,18 @@
 Summary:	A tetris-like puzzle game for X11
 Summary(pl):	Tetrisopodobona gra dla X11
 Name:		xpuyopuyo
-Version:	0.9.5
-Release:	2
+Version:	0.9.8
+Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://chaos2.org/xpuyopuyo/%{name}-%{version}.tar.gz
-# Source0-md5:	dc0014a370740f67924edcc441e79547
+# Source0-md5:	5286312415d632011cfd0e603f55c428
+URL:		http://chaos2.org/xpuyopuyo/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+-devel
 BuildRequires:	libtool
+BuildRequires:	libmikmod-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
@@ -56,7 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc AUTHORS ChangeLog README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man6/*
 %{_datadir}/%{name}
