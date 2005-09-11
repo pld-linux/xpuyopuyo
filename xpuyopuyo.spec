@@ -3,7 +3,7 @@ Summary(pl):	Tetrisopodobona gra dla X11
 Name:		xpuyopuyo
 Version:	0.9.8
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		X11/Applications/Games
 Source0:	http://chaos2.org/xpuyopuyo/%{name}-%{version}.tar.gz
 # Source0-md5:	5286312415d632011cfd0e603f55c428
@@ -50,7 +50,9 @@ trwogê).
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_pixmapsdir},%{_desktopdir}}
 
-%{__make} install DESTDIR="$RPM_BUILD_ROOT"
+%{__make} install \
+	DESTDIR="$RPM_BUILD_ROOT"
+
 install %{name}.xpm $RPM_BUILD_ROOT%{_pixmapsdir}
 install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 
