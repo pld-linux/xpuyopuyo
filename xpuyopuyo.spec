@@ -1,5 +1,5 @@
 Summary:	A tetris-like puzzle game for X11
-Summary(pl.UTF-8):   Tetrisopodobona gra dla X11
+Summary(pl.UTF-8):	Tetrisopodobona gra dla X11
 Name:		xpuyopuyo
 Version:	0.9.8
 Release:	1
